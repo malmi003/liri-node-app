@@ -74,7 +74,6 @@ function movieThis(media) {
 
         //pulling relevant data from API
         let movieObject = JSON.parse(body);
-        // console.log(movieObject);
 
         if (movieObject.Response === "False") {
             console.log(movieObject.Error + " Try another.")
